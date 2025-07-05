@@ -1,0 +1,21 @@
+version: '3.8'
+services:
+  api:
+    build: ./server
+    ports:
+      - "8089:8089"
+    volumes:
+      - ./server:/app
+    environment:
+      - NODE_ENV=production
+
+  react:
+    build: ./client
+    ports:
+      - "8088:8088"
+    volumes:
+      - ./client:/app
+    environment:
+      - CHOKIDAR_USEPOLLING=true
+    stdin_open: true
+    tty: true

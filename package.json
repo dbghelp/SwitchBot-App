@@ -1,0 +1,28 @@
+{
+  "name": "switchbot-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"cd client && npm start\" \"cd server && nodemon start\" ",
+    "server": "cd server && nodemon start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dbghelp/SwitchBot-App.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dbghelp/SwitchBot-App/issues"
+  },
+  "homepage": "https://github.com/dbghelp/SwitchBot-App#readme",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.9.0",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "electron": "^36.5.0"
+  }
+}
