@@ -8,9 +8,9 @@ This application uses the **mobile API** (instead of the limited Open API availa
 
 ## 📸 Screenshots
 
-<img src="./img/1.png" alt="Screenshot 1" width="600"/>  
-<img src="./img/2.png" alt="Screenshot 2" width="600"/>  
-<img src="./img/3.png" alt="Screenshot 3" width="600"/>
+<img src="./img/linux_1.png" alt="Screenshot 1"/>  
+<img src="./img/linux_2.png" alt="Screenshot 2"/>  
+<img src="./img/linux_3.png" alt="Screenshot 3"/>
 
 ---
 
